@@ -13,7 +13,7 @@ AI can detect emotions by learning what each facial expression means and applyin
 
 ---
 
-Layer (type)                 Output Shape              Param #   
+$$Layer (type)                 Output Shape              Param #   
 =================================================================
 input_1 (InputLayer)         (None, 64, 64, 3)         0         
 _________________________________________________________________
@@ -51,7 +51,7 @@ fc2 (Dense)                  (None, 1)                 11
 =================================================================
 Total params: 108,981
 Trainable params: 108,885
-Non-trainable params: 96
+Non-trainable params: 96$$
 
 ---
 
@@ -59,9 +59,9 @@ Non-trainable params: 96
 
 ---
 
-- Training Loss      =>    0.0438 
+- Training Loss      =>     0.0438 
  - Training Accuracy  =>    0.9850  
  - Test Loss          =>    0.093871961832
- - Test Accuracy      => 0.960000003974
+ - Test Accuracy      =>    0.960000003974
  
  ---
