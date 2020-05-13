@@ -13,13 +13,13 @@ AI can detect emotions by learning what each facial expression means and applyin
 
 ---
 
-Layer (type)                 Output Shape              Param #   
+Layer (type)                      Output Shape                     Param #   
 =================================================================
-input_1 (InputLayer)         (None, 64, 64, 3)         0         
+input_1 (InputLayer)               (None, 64, 64, 3)               0         
 _________________________________________________________________
-zero_padding2d_1 (ZeroPaddin (None, 66, 66, 3)         0         
+zero_padding2d_1 (ZeroPaddin       (None, 66, 66, 3)               0         
 _________________________________________________________________
-conv1 (Conv2D)               (None, 64, 64, 16)        448       
+conv1 (Conv2D)                     (None, 64, 64, 16)              448       
 _________________________________________________________________
 batch1 (BatchNormalization)  (None, 64, 64, 16)        64        
 _________________________________________________________________
