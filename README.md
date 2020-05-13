@@ -51,7 +51,7 @@ fc2 (Dense)                  (None, 1)                 11
 _________________________________________________________________
 Total params: 108,981
 Trainable params: 108,885
-Non-trainable params: 96$$
+Non-trainable params: 96
 
 ---
 
