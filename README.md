@@ -13,7 +13,7 @@ AI can detect emotions by learning what each facial expression means and applyin
 
 ---
 
-Layer (type)                      Output Shape                     Param #   
+|Layer (type)|                      |Output Shape|                     |Param #|   
 =================================================================
 input_1 (InputLayer)               (None, 64, 64, 3)               0         
 _________________________________________________________________
